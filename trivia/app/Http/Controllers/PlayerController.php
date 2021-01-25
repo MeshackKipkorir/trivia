@@ -25,7 +25,7 @@ class PlayerController extends Controller
             'name' => 'required|max:255',
         ]);
 
-        $player = Player::create($request->all());
+        $player = \App\Models\Player::create($request->all());
 
         return (new PlayerResource($player))->response()->setStatusCode(201);
     }
@@ -51,13 +51,13 @@ class PlayerController extends Controller
     }
 
     public function delete($id){
-        Player::findOrFail($id)->delete();
+        \App\Models\Player::findOrFail($id)->delete();
 
         return response()->json(null,204);
     }
 
     public function resetAnswer($id){
-        $player = Player::findOrFail($id);
+        $player = \App\Models\Player::findOrFail($id);
         $player->asnwers = 0;
         $player->points = 0;
 
