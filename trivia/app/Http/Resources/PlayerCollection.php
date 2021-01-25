@@ -16,6 +16,6 @@ class PlayerCollection extends ResourceCollection
     {
         return [
             'data' => $this->collection
-        ]
+        ];
     }
 }

@@ -2,22 +2,22 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Resources\Player;
-use App\Models\Player;
 use Illuminate\Http\Request;
 use App\Http\Resources\Player as PlayerResource;
 use App\Http\Resources\PlayerCollection;
+
+
 
 class PlayerController extends Controller
 {
     //returns all players
     public function index(){
-        return PlayerCollection(Player::all());
+        return new PlayerCollection(\App\Models\Player::all());
     }
 
     //show a single player
     public function show($id){
-        return PlayerResource(Player::findOrFail($id));
+        return new PlayerResource(\App\Models\Player::findOrFail($id));
     }
     //save player
     public function store(Request $request){
