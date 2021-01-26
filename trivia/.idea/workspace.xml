@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2202bf02-0755-482b-a62d-af6001617746" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/trivia-web-client-vue/src/components/Dashboard.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trivia-web-client-vue/src/components/TriviaGame.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-web-client-vue/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/trivia-web-client-vue/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-web-client-vue/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/trivia-web-client-vue/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-web-client-vue/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/trivia-web-client-vue/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-web-client-vue/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-web-client-vue/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-web-client-vue/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/trivia-web-client-vue/src/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +167,7 @@
       <workItem from="1611577054490" duration="4016000" />
       <workItem from="1611588665714" duration="3097000" />
       <workItem from="1611646595565" duration="1566000" />
-      <workItem from="1611650281115" duration="712000" />
+      <workItem from="1611650281115" duration="4784000" />
     </task>
     <servers />
   </component>
