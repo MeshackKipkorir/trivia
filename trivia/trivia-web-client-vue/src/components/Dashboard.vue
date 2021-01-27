@@ -17,23 +17,5 @@
 </template>
 
 <script>
-export default {
 
-    data: function () {
-        return {
-        }
-    },
-
-    created () {
-
-    },
-
-    watch: {
-        // Everytime the route changes, check for auth status
-        '$route': 'isAuthenticated'
-    },
-
-    methods: {
-    }
-}
 </script>
