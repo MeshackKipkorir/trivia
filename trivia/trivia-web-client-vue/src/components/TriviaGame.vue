@@ -20,7 +20,9 @@
                         <td>{{player.name}}</td>
                         <td>{{player.answers}}</td>
                         <td>{{player.points}}</td>
-                        <td>Action buttons</td>
+                        <td>
+                            <button class="button is-primary" v-bind:class="{ 'is-loading' : isDeleting(player.id) }" @click="deletePlayer(player.id)">Delete Player</button>
+                        </td>
                     </tr>
                 </template>
                 </tbody>
@@ -34,7 +36,7 @@
 import axios from 'axios'
 import { API_BASE_URL } from '../config'
 import PlayerForm from './PlayerForm'
-
+import Vue from 'vue'
 
 
 export default{
@@ -50,6 +52,18 @@ export default{
     methods:{
         addPlayer(player){
             this.players.push(player)
+        },
+        isDeleting(id){
+            let index = this.players.findIndex(player => player.id === id)
+            console.log(index)
+
+            return console.log(this.players[index].isDeleting)
+        },
+        async deletePlayer(id){
+            let index = this.players.findIndex(player => player.id === id)
+            Vue.set(this.players[index], 'isDeleting', true)
+            await axios.delete(API_BASE_URL + '/players/' + id)
+            this.players.splice(index, 1)
         }
     },
     async created(){

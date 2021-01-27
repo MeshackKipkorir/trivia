@@ -34,7 +34,7 @@ export default {
             .then(response => {
                 this.name = ''
                 this.isLoading = false
-                this.$emit('completed', response.data)
+                this.$emit('completed', response.data.data)
             })
             .catch(error => {
                 this.errors = error.response.data.errors

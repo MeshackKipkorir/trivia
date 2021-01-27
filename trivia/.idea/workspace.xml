@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2202bf02-0755-482b-a62d-af6001617746" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/trivia-web-client-vue/src/components/PlayerForm.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trivia-web-client-vue/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/trivia-web-client-vue/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trivia-web-client-vue/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/trivia-web-client-vue/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trivia-web-client-vue/src/components/Dashboard.vue" beforeDir="false" afterPath="$PROJECT_DIR$/trivia-web-client-vue/src/components/Dashboard.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trivia-web-client-vue/src/components/PlayerForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/trivia-web-client-vue/src/components/PlayerForm.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trivia-web-client-vue/src/components/TriviaGame.vue" beforeDir="false" afterPath="$PROJECT_DIR$/trivia-web-client-vue/src/components/TriviaGame.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trivia-web-client-vue/src/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/trivia-web-client-vue/src/config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +162,7 @@
       <workItem from="1611588665714" duration="3097000" />
       <workItem from="1611646595565" duration="1566000" />
       <workItem from="1611650281115" duration="8482000" />
-      <workItem from="1611735343885" duration="4842000" />
+      <workItem from="1611735343885" duration="9067000" />
     </task>
     <servers />
   </component>
